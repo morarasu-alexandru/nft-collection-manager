@@ -4,8 +4,12 @@
     "plugins": [
       {
         "name": "next"
-      }
-    ]
+      },
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]  // Adjust "src" if your files are located elsewhere
+    }
   },
   "include": [
     "next-env.d.ts",
