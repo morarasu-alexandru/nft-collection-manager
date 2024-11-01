@@ -1,4 +1,4 @@
-import Fastify, { FastifyReply, FastifyRequest } from "fastify";
+import Fastify from "fastify";
 import dotenv from "dotenv";
 import cors from "@fastify/cors";
 import { fastifyTRPCPlugin } from "@trpc/server/adapters/fastify";
@@ -18,17 +18,6 @@ fastify.register(cors, {
 });
 
 fastify.decorate("supabase", supabase);
-
-interface AuthenticatedRequest extends FastifyRequest {
-  user?: any;
-}
-
-fastify.decorate(
-  "authenticate",
-  async (request: AuthenticatedRequest, reply: FastifyReply) => {
-    // ... (keep existing authentication logic)
-  },
-);
 
 fastify.register(fastifyTRPCPlugin, {
   prefix: "/trpc",

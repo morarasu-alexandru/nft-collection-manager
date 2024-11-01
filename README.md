@@ -1,3 +1,13 @@
+# NFT Collection Manager
+
+A full-stack web application for managing NFT collections, built with modern web technologies as part of a technical assessment.
+
+## Technologies Used
+
+- Frontend: Next.js, Tailwind CSS
+- Backend: Fastify, tRPC
+- Database: Supabase
+
 # Turborepo starter
 
 This is an official starter Turborepo.

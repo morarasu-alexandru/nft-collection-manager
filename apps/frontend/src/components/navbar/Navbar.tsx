@@ -1,4 +1,3 @@
-// src/components/navbar/Navbar.tsx
 "use client";
 
 import { useState } from "react";
@@ -37,7 +36,6 @@ export default function Navbar() {
               <Logo />
             </div>
 
-            {/* Hamburger menu button */}
             <div className="flex items-center sm:hidden">
               <HamburgerButton
                 isOpen={isMenuOpen}
@@ -45,7 +43,6 @@ export default function Navbar() {
               />
             </div>
 
-            {/* Desktop menu */}
             <div className="hidden sm:flex sm:items-center sm:ml-6">
               <div className="flex items-center space-x-4">
                 {isUserLoggedIn && userEmail && (
@@ -75,7 +72,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile menu */}
         <div
           className={`${isMenuOpen ? "block" : "hidden"} sm:hidden bg-blue-700`}
         >

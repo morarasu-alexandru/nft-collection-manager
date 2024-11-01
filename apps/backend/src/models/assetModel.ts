@@ -1,13 +1,5 @@
 import { supabase } from "../db";
 
-export interface Asset {
-  id: string;
-  name: string;
-  description: string;
-  owner: string;
-  created_at: string;
-}
-
 export interface AssetInput {
   name: string;
   description: string;

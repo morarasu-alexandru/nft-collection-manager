@@ -64,7 +64,6 @@ export default function AssetDetailsPage() {
         </Link>
       </div>
 
-      {/* Asset Details Card */}
       <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
         <h1 className="text-2xl font-bold mb-4">{asset.name}</h1>
         <div className="space-y-4">
@@ -85,7 +84,6 @@ export default function AssetDetailsPage() {
         </div>
       </div>
 
-      {/* Transfer History */}
       <div className="bg-white rounded-lg shadow-sm border border-gray-200">
         <div className="p-4 border-b border-gray-200">
           <h2 className="text-xl font-semibold">Transfer History</h2>

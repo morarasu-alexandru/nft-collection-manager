@@ -6,11 +6,10 @@ export default function Home() {
           NFT Collection Manager
         </h1>
 
-        <div className="bg-white p-8 rounded-lg shadow-md">
+        <div className="bg-gray-50 p-8 rounded-lg shadow-lg">
           <p className="text-gray-600 mb-4">
             Welcome to my NFT Collection Manager project. I developed this
-            application as part of a job application process to demonstrate my
-            technical skills and creativity in working with Web3 technologies.
+            application as part of a job application process
           </p>
 
           <div className="mt-6 text-sm text-gray-500">
@@ -20,7 +19,6 @@ export default function Home() {
             </p>
             <ul className="mt-2 space-y-1">
               <li>Next.js</li>
-              <li>Modern UI/UX Design</li>
               <li>Tailwind CSS</li>
               <li>Fastify</li>
               <li>tRPC</li>

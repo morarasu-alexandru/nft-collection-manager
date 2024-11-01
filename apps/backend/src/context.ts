@@ -1,4 +1,3 @@
-// in context.ts
 import { CreateFastifyContextOptions } from "@trpc/server/adapters/fastify";
 import { supabase } from "./db";
 

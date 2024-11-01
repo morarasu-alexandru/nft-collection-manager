@@ -47,7 +47,7 @@ export const AuthButtons = ({
         className={baseMenuLink}
         isMobile={isMobile}
       >
-        My Assets
+        My NFTs
       </NavLink>
       <button
         onClick={onLogout}
