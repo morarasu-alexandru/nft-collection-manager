@@ -1,6 +1,6 @@
 import { createTRPCProxyClient, httpBatchLink } from "@trpc/client";
-import type { AppRouter } from "backend/src";
 import { nftApiUrl } from "@/config/constants";
+import { AppRouter } from "backend/src/router/router";
 
 const getAuthToken = () => {
   if (typeof window !== "undefined") {

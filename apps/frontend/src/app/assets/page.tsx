@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useAuth } from "@/context/AuthContext";
 import dayjs from "dayjs";
 import { nftApi } from "@/api/nftApi";
+import Link from "next/link";
 
 type Asset = {
   id: string;
@@ -316,7 +317,13 @@ export default function AssetsPage() {
                 </p>
               </div>
             </div>
-            <div className="pt-2 border-t border-gray-100">
+            <div className="pt-2 border-t border-gray-100 space-y-2">
+              <Link
+                href={`/assets/${asset.id}`}
+                className="block bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 rounded-md text-sm transition-colors w-full text-center"
+              >
+                View Details
+              </Link>
               <button
                 onClick={() => setSelectedAsset(asset)}
                 className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm transition-colors w-full"
