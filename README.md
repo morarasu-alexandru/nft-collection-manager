@@ -2,6 +2,9 @@
 
 A full-stack web application for managing NFT collections, built with modern web technologies as part of a technical assessment.
 
+🎥 [Watch the project presentation](https://www.youtube.com/watch?v=PyaoWVNhsdQ)
+
+
 ## Technologies Used
 
 - Frontend: Next.js, Tailwind CSS
